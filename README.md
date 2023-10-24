@@ -1,13 +1,12 @@
-# hu26
 import random 
 print("Hey folks")
 print("This is a kollyowod director game")
-name=input("What's your name?")
+name=input("What's your name?\n")
 print("Welcome to the game "+name)
 print("Choose your genre of movies you like")
-d=int(input("1.Action\n2.Romcom\n3.Fantasy\n4.Periodic\n5.Scifi\n6.Horror"))
+d=int(input("1.Action\n2.Romcom\n3.Fantasy\n4.Periodic\n5.Scifi\n6.Horror\n"))
 if(d<=6):
-  print(d+"That's a great choice")
+  print("That's a great choice")
 else:
   print("Invalid choice")
 print("The Kollywood director who can direct your lifetime story is")
@@ -31,7 +30,7 @@ elif(d==5):
   e=['Vikram kumar','Ravi kumar','Sakthi soundar rajan']
   rand_e = random.choice(e)
   print(rand_e)
-else(d==6):
+else:
   f=['Raghava lawrence','Ram kumar','Sundar.c']
   rand_f = random.choice(f)
   print(rand_f)
